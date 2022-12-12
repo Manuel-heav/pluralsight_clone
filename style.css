@@ -23,7 +23,6 @@ body{
 }
 
 img{
-    margin-left: 60px;
     width: 320px;
 }
 
@@ -34,9 +33,10 @@ label{
 
 input{
     background: transparent;
-    border: 1px solid #e8e9e9;
+    border: 1px solid #3b3c3f;
     padding: 10px 5px 10px 5px;
     width: 98%;
+    color: #fff;
 }
 input[type="button"]{
     padding: 10px;
@@ -56,14 +56,28 @@ button{
     cursor: pointer;
     color: #fff;
     border: none;
+    margin-top: 20px;
 }
 
-p{
+hr{
+    flex: auto;
+    border: none;
+    height: 1px;
+    background-color: hsla(0,0%,100%,.15);
+}
+form p{
     text-align: center;
     color: #25a0d6;
 }
-p:hover{
+form p:hover{
     text-decoration: underline;
     opacity: 0.5;
     cursor: pointer;
+}
+
+.footer p{
+    text-align: center;
+    color: #b7b7b8;
+    font-size: 13px;
+    line-height: 20px;
 }
